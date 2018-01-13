@@ -3,8 +3,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 import Header from "./header";
 import MusicTherapy from "./MusicTherapy";
-const PersonalInfo = () => <h2>PersonalInfo</h2>;
-const Test = () => <h2>Test</h2>;
+import PersonalInfo from "./PersonalInfo";
+import Imoutofideas from "./ImoutofIdeas";
 
 export default class App extends Component {
   render() {
@@ -13,7 +13,9 @@ export default class App extends Component {
         <BrowserRouter>
           <div>
             <Route path="/" component={Header} />
+            <Route path="/PersonalInfo" component={MusicTherapy} />
             <Route path="/MusicTheropy" component={MusicTherapy} />
+            <Route path="/Imoutofideas" component={MusicTherapy} />
           </div>
         </BrowserRouter>
       </div>
