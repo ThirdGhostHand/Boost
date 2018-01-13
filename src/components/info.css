@@ -1,0 +1,52 @@
+@media (max-width: 750px) {
+  .InfoWrapper {
+    flex-flow: column;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .InfoPicture {
+    margin: 10px;
+    width: 100%;
+    border-radius: 50px;
+  }
+  .About {
+    width: 80%;
+  }
+  .Info {
+    width: 20vw;
+    color: black;
+  }
+  ul {
+    padding-left: 2vh;
+  }
+  .bio {
+    margin: 10px;
+  }
+}
+@media (min-width: 750px) {
+  .InfoWrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .About {
+    width: 20vw;
+  }
+  .InfoPicture {
+    height: 50vh;
+    border-radius: 50px;
+  }
+  .Info {
+    width: 20vw;
+    color: black;
+  }
+  ul {
+    padding-left: 2vh;
+  }
+  .bio {
+    margin: 10px;
+  }
+}

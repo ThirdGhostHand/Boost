@@ -1,0 +1,199 @@
+.Footer {
+  background-image: url('../images/octavio-fossatti-37556.jpg');
+  overflow: hidden;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+  color: #007399;
+  margin-right: 100px;
+}
+a {
+  color: white;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    border-color: #007399;
+  }
+
+  100% {
+    border-color: hsl(255, 75%, 40%);
+  }
+}
+
+.contacts {
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+.contacts:active {
+  text-decoration: bold;
+  text-decoration: underline;
+}
+.contacts:hover {
+  text-decoration: bold;
+  color: #007399;
+}
+
+.contacting {
+  transition: transform 800ms ease-in-out;
+  transform: translate(0, 0px);
+  position: relative;
+  padding: 15px;
+  top: 15%;
+  height: 50%;
+  background-color: #141414;
+  border-radius: 25px;
+  border: 10px solid hsl(0, 100%, 50%);
+  -webkit-animation: rainbow 4s infinite alternate;
+  display: flex;
+  flex-flow: column;
+}
+.notContacting {
+  transform: translate(0, -400px);
+  transition: transform 800ms ease-in-out;
+  position: relative;
+  padding: 15px;
+  height: 50%;
+  background-color: #141414;
+  border-radius: 25px;
+  border: 10px solid hsl(0, 100%, 50%);
+  -webkit-animation: rainbow 5s infinite alternate;
+  display: flex;
+  flex-flow: column;
+}
+.raining {
+  height: 135px;
+  margin-top: 60px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining {
+  transform: translate(0, -750px) rotate(50deg);
+  position: relative;
+  top: -400px;
+}
+.raining1 {
+  height: 150px;
+  margin-top: 50px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining1 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining2 {
+  height: 150px;
+  margin-top: 90px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining2 {
+  transform: translate(0, -750px) rotate(10deg);
+  position: relative;
+  top: -400px;
+}
+.raining3 {
+  height: 150px;
+  margin-top: 50px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining3 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining4 {
+  height: 160px;
+  margin-top: 20px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining4 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining5 {
+  height: 140px;
+  margin-top: 70px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining5 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining6 {
+  height: 110px;
+  margin-top: 30px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining6 {
+  transform: translate(0, -750px) rotate(50deg);
+  position: relative;
+  top: -400px;
+}
+.raining7 {
+  height: 140px;
+  margin-top: 90px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining7 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining8 {
+  height: 150px;
+  margin-top: 50px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining8 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining9 {
+  height: 155px;
+  margin-top: 50px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}
+.notRaining9 {
+  transform: translate(0, -750px) rotate(180deg);
+  position: relative;
+  top: -400px;
+}
+.raining10 {
+  height: 160px;
+  margin-top: 50px;
+  transition: transform 1500ms ease-in-out;
+  position: relative;
+  bottom: -450px;
+}

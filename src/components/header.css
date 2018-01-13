@@ -1,0 +1,34 @@
+.headerOnTop {
+  padding: 20px;
+  display: inline;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  transition: background-color .20s ease-in-out;
+}
+.headerNotOnTop {
+  padding: 20px;
+  display: inline;
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 1;
+  transition: background-color .50s ease-in-out;
+}
+.links {
+  color: black;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+.links:active {
+  text-decoration: bold;
+  text-decoration: underline;
+}
+.links:hover {
+  text-decoration: bold;
+  color: blue;
+}

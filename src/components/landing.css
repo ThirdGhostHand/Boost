@@ -1,0 +1,84 @@
+@media (max-width: 750px) {
+  .mac1 {
+    display: none;
+  }
+  .mac1Plx {
+    display: none;
+  }
+  .mac1_1 {
+    display: none;
+  }
+  .mac1_1Plx {
+    display: none;
+  }
+  .mac1_2 {
+    display: none;
+  }
+  .mac1_2Plx {
+    display: none;
+  }
+  .mac1_3 {
+    display: none;
+  }
+  .mac1_3Plx {
+    display: none;
+  }
+}
+.MainLanding {
+  background-image: url('../images/chinda-sam-253362.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mac1 {
+  height: 100px;
+}
+.mac1Plx {
+  order: 2;
+  align-self: flex-start;
+  margin-top: 100px;
+}
+.mac1_1 {
+  height: 140px;
+}
+.mac1_1Plx {
+  order: 4;
+}
+.mac1_2 {
+  height: 80px;
+}
+.mac1_2Plx {
+  order: 3;
+  align-self: flex-end;
+  margin-bottom: 150px;
+}
+.mac1_3 {
+  height: 180px;
+}
+.mac1_3Plx {
+  order: 1;
+  margin-bottom: 300px;
+}
+.LandingProfile {
+  order: 5;
+  margin: 10vh;
+}
+.LandingProfilePicture {
+  height: 250px;
+  width: auto;
+}
+.LandingProfileName {
+  background-color: darkgrey;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+}
+.LandingProfileJob {
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+}
